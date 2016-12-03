@@ -1,11 +1,11 @@
 # QGIS Windows Build Qt5 VS2015 x64
 ---
 
-It is an official build of Qt5-based [QGIS](http://www.qgis.org/) on Windows.
+It is an unofficial build of Qt5-based [QGIS](http://www.qgis.org/) on Windows.
 ![screenshot](screenshot.jpg)
 
 ## Warning
-It is an official build, so do not use it in **Commercial** purpose.
+It is an **unofficial** build, so do not use it in **Commercial** purpose.
 
 ## Limitations
 
