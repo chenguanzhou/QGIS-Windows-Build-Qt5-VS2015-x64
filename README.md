@@ -19,6 +19,9 @@ Windows 7 64bit and above
 
 ## Compilation Information
 
+#### QGIS version:
+* 2.18.0
+
 #### OS:
 * Windows 10 64bit 1607 14393.447
 
