@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'qgsgenericprojectionselectorbase.ui'
 **
-** Created by: Qt User Interface Compiler version 5.7.0
+** Created by: Qt User Interface Compiler version 5.9.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -80,7 +80,7 @@ public:
 
     void retranslateUi(QDialog *QgsGenericProjectionSelectorBase)
     {
-        QgsGenericProjectionSelectorBase->setWindowTitle(QApplication::translate("QgsGenericProjectionSelectorBase", "Coordinate Reference System Selector", 0));
+        QgsGenericProjectionSelectorBase->setWindowTitle(QApplication::translate("QgsGenericProjectionSelectorBase", "Coordinate Reference System Selector", Q_NULLPTR));
     } // retranslateUi
 
 };

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'qgsowssourceselectbase.ui'
 **
-** Created by: Qt User Interface Compiler version 5.7.0
+** Created by: Qt User Interface Compiler version 5.9.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -484,42 +484,42 @@ public:
 
     void retranslateUi(QDialog *QgsOWSSourceSelectBase)
     {
-        QgsOWSSourceSelectBase->setWindowTitle(QApplication::translate("QgsOWSSourceSelectBase", "Add Layer(s) from a Server", 0));
-        mStatusLabel->setText(QApplication::translate("QgsOWSSourceSelectBase", "Ready", 0));
-        mConnectButton->setText(QApplication::translate("QgsOWSSourceSelectBase", "C&onnect", 0));
-        mNewButton->setText(QApplication::translate("QgsOWSSourceSelectBase", "&New", 0));
-        mEditButton->setText(QApplication::translate("QgsOWSSourceSelectBase", "Edit", 0));
-        mDeleteButton->setText(QApplication::translate("QgsOWSSourceSelectBase", "Delete", 0));
+        QgsOWSSourceSelectBase->setWindowTitle(QApplication::translate("QgsOWSSourceSelectBase", "Add Layer(s) from a Server", Q_NULLPTR));
+        mStatusLabel->setText(QApplication::translate("QgsOWSSourceSelectBase", "Ready", Q_NULLPTR));
+        mConnectButton->setText(QApplication::translate("QgsOWSSourceSelectBase", "C&onnect", Q_NULLPTR));
+        mNewButton->setText(QApplication::translate("QgsOWSSourceSelectBase", "&New", Q_NULLPTR));
+        mEditButton->setText(QApplication::translate("QgsOWSSourceSelectBase", "Edit", Q_NULLPTR));
+        mDeleteButton->setText(QApplication::translate("QgsOWSSourceSelectBase", "Delete", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        mLoadButton->setToolTip(QApplication::translate("QgsOWSSourceSelectBase", "Load connections from file", 0));
+        mLoadButton->setToolTip(QApplication::translate("QgsOWSSourceSelectBase", "Load connections from file", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        mLoadButton->setText(QApplication::translate("QgsOWSSourceSelectBase", "Load", 0));
+        mLoadButton->setText(QApplication::translate("QgsOWSSourceSelectBase", "Load", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        mSaveButton->setToolTip(QApplication::translate("QgsOWSSourceSelectBase", "Save connections to file", 0));
+        mSaveButton->setToolTip(QApplication::translate("QgsOWSSourceSelectBase", "Save connections to file", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        mSaveButton->setText(QApplication::translate("QgsOWSSourceSelectBase", "Save", 0));
+        mSaveButton->setText(QApplication::translate("QgsOWSSourceSelectBase", "Save", Q_NULLPTR));
 #ifndef QT_NO_STATUSTIP
-        mAddDefaultButton->setStatusTip(QApplication::translate("QgsOWSSourceSelectBase", "Adds a few example WMS servers", 0));
+        mAddDefaultButton->setStatusTip(QApplication::translate("QgsOWSSourceSelectBase", "Adds a few example WMS servers", Q_NULLPTR));
 #endif // QT_NO_STATUSTIP
 #ifndef QT_NO_WHATSTHIS
         mAddDefaultButton->setWhatsThis(QString());
 #endif // QT_NO_WHATSTHIS
-        mAddDefaultButton->setText(QApplication::translate("QgsOWSSourceSelectBase", "Add default servers", 0));
+        mAddDefaultButton->setText(QApplication::translate("QgsOWSSourceSelectBase", "Add default servers", Q_NULLPTR));
         QTreeWidgetItem *___qtreewidgetitem = mLayersTreeWidget->headerItem();
-        ___qtreewidgetitem->setText(3, QApplication::translate("QgsOWSSourceSelectBase", "Abstract", 0));
-        ___qtreewidgetitem->setText(2, QApplication::translate("QgsOWSSourceSelectBase", "Title", 0));
-        ___qtreewidgetitem->setText(1, QApplication::translate("QgsOWSSourceSelectBase", "Name", 0));
-        ___qtreewidgetitem->setText(0, QApplication::translate("QgsOWSSourceSelectBase", "ID", 0));
-        mTimeLabel->setText(QApplication::translate("QgsOWSSourceSelectBase", "Time", 0));
-        mCRSLabel->setText(QApplication::translate("QgsOWSSourceSelectBase", "Coordinate Reference System:", 0));
-        mSelectedCRSLabel->setText(QApplication::translate("QgsOWSSourceSelectBase", "Selected Coordinate Reference System", 0));
-        mChangeCRSButton->setText(QApplication::translate("QgsOWSSourceSelectBase", "Change...", 0));
-        mFormatLabel->setText(QApplication::translate("QgsOWSSourceSelectBase", "Format", 0));
-        mWMSGroupBox->setTitle(QApplication::translate("QgsOWSSourceSelectBase", "Options", 0));
-        mLayerNameLabel->setText(QApplication::translate("QgsOWSSourceSelectBase", "Layer name", 0));
-        mTileSizeLabel->setText(QApplication::translate("QgsOWSSourceSelectBase", "Tile size", 0));
-        mFeatureCountLabel->setText(QApplication::translate("QgsOWSSourceSelectBase", "Feature limit for GetFeatureInfo", 0));
-        mCacheLabel->setText(QApplication::translate("QgsOWSSourceSelectBase", "Cache", 0));
+        ___qtreewidgetitem->setText(3, QApplication::translate("QgsOWSSourceSelectBase", "Abstract", Q_NULLPTR));
+        ___qtreewidgetitem->setText(2, QApplication::translate("QgsOWSSourceSelectBase", "Title", Q_NULLPTR));
+        ___qtreewidgetitem->setText(1, QApplication::translate("QgsOWSSourceSelectBase", "Name", Q_NULLPTR));
+        ___qtreewidgetitem->setText(0, QApplication::translate("QgsOWSSourceSelectBase", "ID", Q_NULLPTR));
+        mTimeLabel->setText(QApplication::translate("QgsOWSSourceSelectBase", "Time", Q_NULLPTR));
+        mCRSLabel->setText(QApplication::translate("QgsOWSSourceSelectBase", "Coordinate Reference System:", Q_NULLPTR));
+        mSelectedCRSLabel->setText(QApplication::translate("QgsOWSSourceSelectBase", "Selected Coordinate Reference System", Q_NULLPTR));
+        mChangeCRSButton->setText(QApplication::translate("QgsOWSSourceSelectBase", "Change...", Q_NULLPTR));
+        mFormatLabel->setText(QApplication::translate("QgsOWSSourceSelectBase", "Format", Q_NULLPTR));
+        mWMSGroupBox->setTitle(QApplication::translate("QgsOWSSourceSelectBase", "Options", Q_NULLPTR));
+        mLayerNameLabel->setText(QApplication::translate("QgsOWSSourceSelectBase", "Layer name", Q_NULLPTR));
+        mTileSizeLabel->setText(QApplication::translate("QgsOWSSourceSelectBase", "Tile size", Q_NULLPTR));
+        mFeatureCountLabel->setText(QApplication::translate("QgsOWSSourceSelectBase", "Feature limit for GetFeatureInfo", Q_NULLPTR));
+        mCacheLabel->setText(QApplication::translate("QgsOWSSourceSelectBase", "Cache", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
         mCacheComboBox->setToolTip(QApplication::translate("QgsOWSSourceSelectBase", "Cache preference\n"
 "\n"
@@ -530,41 +530,41 @@ public:
 "Prefer network: default value; load from the network if the cached entry is older than the network entry\n"
 "\n"
 "Always network: always load from network and do not check if the cache has a valid entry (similar to the \"Reload\" feature in browsers)\n"
-"", 0));
+"", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        mTabWidget->setTabText(mTabWidget->indexOf(mLayersTab), QApplication::translate("QgsOWSSourceSelectBase", "Layers", 0));
+        mTabWidget->setTabText(mTabWidget->indexOf(mLayersTab), QApplication::translate("QgsOWSSourceSelectBase", "Layers", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        mLayerUpButton->setToolTip(QApplication::translate("QgsOWSSourceSelectBase", "Move selected layer UP", 0));
+        mLayerUpButton->setToolTip(QApplication::translate("QgsOWSSourceSelectBase", "Move selected layer UP", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        mLayerUpButton->setText(QApplication::translate("QgsOWSSourceSelectBase", "Up", 0));
+        mLayerUpButton->setText(QApplication::translate("QgsOWSSourceSelectBase", "Up", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        mLayerDownButton->setToolTip(QApplication::translate("QgsOWSSourceSelectBase", "Move selected layer DOWN", 0));
+        mLayerDownButton->setToolTip(QApplication::translate("QgsOWSSourceSelectBase", "Move selected layer DOWN", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        mLayerDownButton->setText(QApplication::translate("QgsOWSSourceSelectBase", "Down", 0));
+        mLayerDownButton->setText(QApplication::translate("QgsOWSSourceSelectBase", "Down", Q_NULLPTR));
         QTreeWidgetItem *___qtreewidgetitem1 = mLayerOrderTreeWidget->headerItem();
-        ___qtreewidgetitem1->setText(1, QApplication::translate("QgsOWSSourceSelectBase", "Style", 0));
-        ___qtreewidgetitem1->setText(0, QApplication::translate("QgsOWSSourceSelectBase", "Layer", 0));
-        mTabWidget->setTabText(mTabWidget->indexOf(mLayerOrderTab), QApplication::translate("QgsOWSSourceSelectBase", "Layer Order", 0));
+        ___qtreewidgetitem1->setText(1, QApplication::translate("QgsOWSSourceSelectBase", "Style", Q_NULLPTR));
+        ___qtreewidgetitem1->setText(0, QApplication::translate("QgsOWSSourceSelectBase", "Layer", Q_NULLPTR));
+        mTabWidget->setTabText(mTabWidget->indexOf(mLayerOrderTab), QApplication::translate("QgsOWSSourceSelectBase", "Layer Order", Q_NULLPTR));
         QTableWidgetItem *___qtablewidgetitem = mTilesetsTableWidget->horizontalHeaderItem(0);
-        ___qtablewidgetitem->setText(QApplication::translate("QgsOWSSourceSelectBase", "Layers", 0));
+        ___qtablewidgetitem->setText(QApplication::translate("QgsOWSSourceSelectBase", "Layers", Q_NULLPTR));
         QTableWidgetItem *___qtablewidgetitem1 = mTilesetsTableWidget->horizontalHeaderItem(1);
-        ___qtablewidgetitem1->setText(QApplication::translate("QgsOWSSourceSelectBase", "Styles", 0));
+        ___qtablewidgetitem1->setText(QApplication::translate("QgsOWSSourceSelectBase", "Styles", Q_NULLPTR));
         QTableWidgetItem *___qtablewidgetitem2 = mTilesetsTableWidget->horizontalHeaderItem(2);
-        ___qtablewidgetitem2->setText(QApplication::translate("QgsOWSSourceSelectBase", "Size", 0));
+        ___qtablewidgetitem2->setText(QApplication::translate("QgsOWSSourceSelectBase", "Size", Q_NULLPTR));
         QTableWidgetItem *___qtablewidgetitem3 = mTilesetsTableWidget->horizontalHeaderItem(3);
-        ___qtablewidgetitem3->setText(QApplication::translate("QgsOWSSourceSelectBase", "Format", 0));
+        ___qtablewidgetitem3->setText(QApplication::translate("QgsOWSSourceSelectBase", "Format", Q_NULLPTR));
         QTableWidgetItem *___qtablewidgetitem4 = mTilesetsTableWidget->horizontalHeaderItem(4);
-        ___qtablewidgetitem4->setText(QApplication::translate("QgsOWSSourceSelectBase", "CRS", 0));
-        mTabWidget->setTabText(mTabWidget->indexOf(mTilesetsTab), QApplication::translate("QgsOWSSourceSelectBase", "Tilesets", 0));
-        mSearchButton->setText(QApplication::translate("QgsOWSSourceSelectBase", "Search", 0));
+        ___qtablewidgetitem4->setText(QApplication::translate("QgsOWSSourceSelectBase", "CRS", Q_NULLPTR));
+        mTabWidget->setTabText(mTabWidget->indexOf(mTilesetsTab), QApplication::translate("QgsOWSSourceSelectBase", "Tilesets", Q_NULLPTR));
+        mSearchButton->setText(QApplication::translate("QgsOWSSourceSelectBase", "Search", Q_NULLPTR));
         QTableWidgetItem *___qtablewidgetitem5 = mSearchTableWidget->horizontalHeaderItem(0);
-        ___qtablewidgetitem5->setText(QApplication::translate("QgsOWSSourceSelectBase", "Title", 0));
+        ___qtablewidgetitem5->setText(QApplication::translate("QgsOWSSourceSelectBase", "Title", Q_NULLPTR));
         QTableWidgetItem *___qtablewidgetitem6 = mSearchTableWidget->horizontalHeaderItem(1);
-        ___qtablewidgetitem6->setText(QApplication::translate("QgsOWSSourceSelectBase", "Description", 0));
+        ___qtablewidgetitem6->setText(QApplication::translate("QgsOWSSourceSelectBase", "Description", Q_NULLPTR));
         QTableWidgetItem *___qtablewidgetitem7 = mSearchTableWidget->horizontalHeaderItem(2);
-        ___qtablewidgetitem7->setText(QApplication::translate("QgsOWSSourceSelectBase", "URL", 0));
-        mSearchAddButton->setText(QApplication::translate("QgsOWSSourceSelectBase", "Add selected row to WMS list", 0));
-        mTabWidget->setTabText(mTabWidget->indexOf(mSearchTab), QApplication::translate("QgsOWSSourceSelectBase", "Server Search", 0));
+        ___qtablewidgetitem7->setText(QApplication::translate("QgsOWSSourceSelectBase", "URL", Q_NULLPTR));
+        mSearchAddButton->setText(QApplication::translate("QgsOWSSourceSelectBase", "Add selected row to WMS list", Q_NULLPTR));
+        mTabWidget->setTabText(mTabWidget->indexOf(mSearchTab), QApplication::translate("QgsOWSSourceSelectBase", "Server Search", Q_NULLPTR));
     } // retranslateUi
 
 };

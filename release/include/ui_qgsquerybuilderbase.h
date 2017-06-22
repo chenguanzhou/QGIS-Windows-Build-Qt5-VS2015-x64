@@ -5,7 +5,7 @@ Query builder for vector layers
 /********************************************************************************
 ** Form generated from reading UI file 'qgsquerybuilderbase.ui'
 **
-** Created by: Qt User Interface Compiler version 5.7.0
+** Created by: Qt User Interface Compiler version 5.9.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -306,53 +306,53 @@ public:
 
     void retranslateUi(QDialog *QgsQueryBuilderBase)
     {
-        QgsQueryBuilderBase->setWindowTitle(QApplication::translate("QgsQueryBuilderBase", "Query Builder", 0));
-        lblDataUri->setText(QApplication::translate("QgsQueryBuilderBase", "Datasource", 0));
-        groupBox1->setTitle(QApplication::translate("QgsQueryBuilderBase", "Fields", 0));
+        QgsQueryBuilderBase->setWindowTitle(QApplication::translate("QgsQueryBuilderBase", "Query Builder", Q_NULLPTR));
+        lblDataUri->setText(QApplication::translate("QgsQueryBuilderBase", "Datasource", Q_NULLPTR));
+        groupBox1->setTitle(QApplication::translate("QgsQueryBuilderBase", "Fields", Q_NULLPTR));
 #ifndef QT_NO_WHATSTHIS
         lstFields->setWhatsThis(QApplication::translate("QgsQueryBuilderBase", "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">List of fields in this vector file</p></body></html>", 0));
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">List of fields in this vector file</p></body></html>", Q_NULLPTR));
 #endif // QT_NO_WHATSTHIS
-        groupBox2->setTitle(QApplication::translate("QgsQueryBuilderBase", "Values", 0));
+        groupBox2->setTitle(QApplication::translate("QgsQueryBuilderBase", "Values", Q_NULLPTR));
 #ifndef QT_NO_WHATSTHIS
         lstValues->setWhatsThis(QApplication::translate("QgsQueryBuilderBase", "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">List of values for the current field.</p></body></html>", 0));
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">List of values for the current field.</p></body></html>", Q_NULLPTR));
 #endif // QT_NO_WHATSTHIS
 #ifndef QT_NO_TOOLTIP
         btnSampleValues->setToolTip(QApplication::translate("QgsQueryBuilderBase", "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Take a <span style=\" font-weight:600;\">sample</span> of records in the vector file</p></body></html>", 0));
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Take a <span style=\" font-weight:600;\">sample</span> of records in the vector file</p></body></html>", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        btnSampleValues->setText(QApplication::translate("QgsQueryBuilderBase", "Sample", 0));
+        btnSampleValues->setText(QApplication::translate("QgsQueryBuilderBase", "Sample", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
         btnGetAllValues->setToolTip(QApplication::translate("QgsQueryBuilderBase", "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Retrieve <span style=\" font-weight:600;\">all</span> the record in the vector file (<span style=\" font-style:italic;\">if the table is big, the operation can consume some time</span>)</p></body></html>", 0));
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Retrieve <span style=\" font-weight:600;\">all</span> the record in the vector file (<span style=\" font-style:italic;\">if the table is big, the operation can consume some time</span>)</p></body></html>", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        btnGetAllValues->setText(QApplication::translate("QgsQueryBuilderBase", "All", 0));
-        mUseUnfilteredLayer->setText(QApplication::translate("QgsQueryBuilderBase", "Use unfiltered layer", 0));
-        groupBox4->setTitle(QApplication::translate("QgsQueryBuilderBase", "Operators", 0));
-        btnLike->setText(QApplication::translate("QgsQueryBuilderBase", "LIKE", 0));
-        btnIn->setText(QApplication::translate("QgsQueryBuilderBase", "IN", 0));
-        btnLessEqual->setText(QApplication::translate("QgsQueryBuilderBase", "<=", 0));
-        btnLessThan->setText(QApplication::translate("QgsQueryBuilderBase", "<", 0));
-        btnNotIn->setText(QApplication::translate("QgsQueryBuilderBase", "NOT IN", 0));
-        btnGreaterThan->setText(QApplication::translate("QgsQueryBuilderBase", ">", 0));
-        btnEqual->setText(QApplication::translate("QgsQueryBuilderBase", "=", 0));
-        btnILike->setText(QApplication::translate("QgsQueryBuilderBase", "ILIKE", 0));
-        btnOr->setText(QApplication::translate("QgsQueryBuilderBase", "OR", 0));
-        btnPct->setText(QApplication::translate("QgsQueryBuilderBase", "%", 0));
-        btnNotEqual->setText(QApplication::translate("QgsQueryBuilderBase", "!=", 0));
-        btnGreaterEqual->setText(QApplication::translate("QgsQueryBuilderBase", ">=", 0));
-        btnAnd->setText(QApplication::translate("QgsQueryBuilderBase", "AND", 0));
-        btnNot->setText(QApplication::translate("QgsQueryBuilderBase", "NOT", 0));
-        groupBox3->setTitle(QApplication::translate("QgsQueryBuilderBase", "Provider specific filter expression", 0));
+        btnGetAllValues->setText(QApplication::translate("QgsQueryBuilderBase", "All", Q_NULLPTR));
+        mUseUnfilteredLayer->setText(QApplication::translate("QgsQueryBuilderBase", "Use unfiltered layer", Q_NULLPTR));
+        groupBox4->setTitle(QApplication::translate("QgsQueryBuilderBase", "Operators", Q_NULLPTR));
+        btnLike->setText(QApplication::translate("QgsQueryBuilderBase", "LIKE", Q_NULLPTR));
+        btnIn->setText(QApplication::translate("QgsQueryBuilderBase", "IN", Q_NULLPTR));
+        btnLessEqual->setText(QApplication::translate("QgsQueryBuilderBase", "<=", Q_NULLPTR));
+        btnLessThan->setText(QApplication::translate("QgsQueryBuilderBase", "<", Q_NULLPTR));
+        btnNotIn->setText(QApplication::translate("QgsQueryBuilderBase", "NOT IN", Q_NULLPTR));
+        btnGreaterThan->setText(QApplication::translate("QgsQueryBuilderBase", ">", Q_NULLPTR));
+        btnEqual->setText(QApplication::translate("QgsQueryBuilderBase", "=", Q_NULLPTR));
+        btnILike->setText(QApplication::translate("QgsQueryBuilderBase", "ILIKE", Q_NULLPTR));
+        btnOr->setText(QApplication::translate("QgsQueryBuilderBase", "OR", Q_NULLPTR));
+        btnPct->setText(QApplication::translate("QgsQueryBuilderBase", "%", Q_NULLPTR));
+        btnNotEqual->setText(QApplication::translate("QgsQueryBuilderBase", "!=", Q_NULLPTR));
+        btnGreaterEqual->setText(QApplication::translate("QgsQueryBuilderBase", ">=", Q_NULLPTR));
+        btnAnd->setText(QApplication::translate("QgsQueryBuilderBase", "AND", Q_NULLPTR));
+        btnNot->setText(QApplication::translate("QgsQueryBuilderBase", "NOT", Q_NULLPTR));
+        groupBox3->setTitle(QApplication::translate("QgsQueryBuilderBase", "Provider specific filter expression", Q_NULLPTR));
     } // retranslateUi
 
 };

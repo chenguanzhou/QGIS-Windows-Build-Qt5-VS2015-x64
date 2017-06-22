@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'qgsdetaileditemwidgetbase.ui'
 **
-** Created by: Qt User Interface Compiler version 5.7.0
+** Created by: Qt User Interface Compiler version 5.9.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -118,12 +118,12 @@ public:
 
     void retranslateUi(QWidget *QgsDetailedItemWidgetBase)
     {
-        QgsDetailedItemWidgetBase->setWindowTitle(QApplication::translate("QgsDetailedItemWidgetBase", "Form", 0));
+        QgsDetailedItemWidgetBase->setWindowTitle(QApplication::translate("QgsDetailedItemWidgetBase", "Form", Q_NULLPTR));
         lblIcon->setText(QString());
-        lblTitle->setText(QApplication::translate("QgsDetailedItemWidgetBase", "Heading Label", 0));
+        lblTitle->setText(QApplication::translate("QgsDetailedItemWidgetBase", "Heading Label", Q_NULLPTR));
         cbx->setText(QString());
-        lblDetail->setText(QApplication::translate("QgsDetailedItemWidgetBase", "Detail label", 0));
-        lblCategory->setText(QApplication::translate("QgsDetailedItemWidgetBase", "Category label", 0));
+        lblDetail->setText(QApplication::translate("QgsDetailedItemWidgetBase", "Detail label", Q_NULLPTR));
+        lblCategory->setText(QApplication::translate("QgsDetailedItemWidgetBase", "Category label", Q_NULLPTR));
     } // retranslateUi
 
 };

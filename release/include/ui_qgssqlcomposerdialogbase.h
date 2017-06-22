@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'qgssqlcomposerdialogbase.ui'
 **
-** Created by: Qt User Interface Compiler version 5.7.0
+** Created by: Qt User Interface Compiler version 5.9.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -348,58 +348,58 @@ public:
 
     void retranslateUi(QDialog *QgsSQLComposerDialogBase)
     {
-        QgsSQLComposerDialogBase->setWindowTitle(QApplication::translate("QgsSQLComposerDialogBase", "SQL query composer", 0));
-        mSQLStatementLabel->setText(QApplication::translate("QgsSQLComposerDialogBase", "SQL statement", 0));
+        QgsSQLComposerDialogBase->setWindowTitle(QApplication::translate("QgsSQLComposerDialogBase", "SQL query composer", Q_NULLPTR));
+        mSQLStatementLabel->setText(QApplication::translate("QgsSQLComposerDialogBase", "SQL statement", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        mQueryEdit->setToolTip(QApplication::translate("QgsSQLComposerDialogBase", "<html><head/><body><p>This is the SQL query editor.</p></body></html>", 0));
+        mQueryEdit->setToolTip(QApplication::translate("QgsSQLComposerDialogBase", "<html><head/><body><p>This is the SQL query editor.</p></body></html>", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        mColumnsLabel->setText(QApplication::translate("QgsSQLComposerDialogBase", "Columns", 0));
-        mTablesLabel->setText(QApplication::translate("QgsSQLComposerDialogBase", "Table(s)", 0));
+        mColumnsLabel->setText(QApplication::translate("QgsSQLComposerDialogBase", "Columns", Q_NULLPTR));
+        mTablesLabel->setText(QApplication::translate("QgsSQLComposerDialogBase", "Table(s)", Q_NULLPTR));
         mTablesEditor->setText(QString());
-        mJoinsLabels->setText(QApplication::translate("QgsSQLComposerDialogBase", "Joins", 0));
+        mJoinsLabels->setText(QApplication::translate("QgsSQLComposerDialogBase", "Joins", Q_NULLPTR));
         QTableWidgetItem *___qtablewidgetitem = mTableJoins->horizontalHeaderItem(0);
-        ___qtablewidgetitem->setText(QApplication::translate("QgsSQLComposerDialogBase", "Joint layer", 0));
+        ___qtablewidgetitem->setText(QApplication::translate("QgsSQLComposerDialogBase", "Joint layer", Q_NULLPTR));
         QTableWidgetItem *___qtablewidgetitem1 = mTableJoins->horizontalHeaderItem(1);
-        ___qtablewidgetitem1->setText(QApplication::translate("QgsSQLComposerDialogBase", "ON condition", 0));
+        ___qtablewidgetitem1->setText(QApplication::translate("QgsSQLComposerDialogBase", "ON condition", Q_NULLPTR));
         mAddJoinButton->setText(QString());
         mRemoveJoinButton->setText(QString());
-        mWhereLabel->setText(QApplication::translate("QgsSQLComposerDialogBase", "Where    ", 0));
-        mOrderLabel->setText(QApplication::translate("QgsSQLComposerDialogBase", "Order by", 0));
+        mWhereLabel->setText(QApplication::translate("QgsSQLComposerDialogBase", "Where    ", Q_NULLPTR));
+        mOrderLabel->setText(QApplication::translate("QgsSQLComposerDialogBase", "Order by", Q_NULLPTR));
         mTablesCombo->clear();
         mTablesCombo->insertItems(0, QStringList()
-         << QApplication::translate("QgsSQLComposerDialogBase", "Tables", 0)
+         << QApplication::translate("QgsSQLComposerDialogBase", "Tables", Q_NULLPTR)
         );
         mColumnsCombo->clear();
         mColumnsCombo->insertItems(0, QStringList()
-         << QApplication::translate("QgsSQLComposerDialogBase", "Columns", 0)
+         << QApplication::translate("QgsSQLComposerDialogBase", "Columns", Q_NULLPTR)
         );
         mAggregatesCombo->clear();
         mAggregatesCombo->insertItems(0, QStringList()
-         << QApplication::translate("QgsSQLComposerDialogBase", "Aggregates", 0)
+         << QApplication::translate("QgsSQLComposerDialogBase", "Aggregates", Q_NULLPTR)
         );
         mFunctionsCombo->clear();
         mFunctionsCombo->insertItems(0, QStringList()
-         << QApplication::translate("QgsSQLComposerDialogBase", "Functions", 0)
+         << QApplication::translate("QgsSQLComposerDialogBase", "Functions", Q_NULLPTR)
         );
         mSpatialPredicatesCombo->clear();
         mSpatialPredicatesCombo->insertItems(0, QStringList()
-         << QApplication::translate("QgsSQLComposerDialogBase", "Spatial predicates", 0)
+         << QApplication::translate("QgsSQLComposerDialogBase", "Spatial predicates", Q_NULLPTR)
         );
         mStringFunctionsCombo->clear();
         mStringFunctionsCombo->insertItems(0, QStringList()
-         << QApplication::translate("QgsSQLComposerDialogBase", "Strings functions", 0)
+         << QApplication::translate("QgsSQLComposerDialogBase", "Strings functions", Q_NULLPTR)
         );
         mOperatorsCombo->clear();
         mOperatorsCombo->insertItems(0, QStringList()
-         << QApplication::translate("QgsSQLComposerDialogBase", "Operators", 0)
+         << QApplication::translate("QgsSQLComposerDialogBase", "Operators", Q_NULLPTR)
         );
-        mToolbox->setItemText(mToolbox->indexOf(mPageData), QApplication::translate("QgsSQLComposerDialogBase", "Data", 0));
+        mToolbox->setItemText(mToolbox->indexOf(mPageData), QApplication::translate("QgsSQLComposerDialogBase", "Data", Q_NULLPTR));
         columns_2->clear();
         columns_2->insertItems(0, QStringList()
-         << QApplication::translate("QgsSQLComposerDialogBase", "Columns", 0)
+         << QApplication::translate("QgsSQLComposerDialogBase", "Columns", Q_NULLPTR)
         );
-        extract->setText(QApplication::translate("QgsSQLComposerDialogBase", "Only 10 first values", 0));
-        mToolbox->setItemText(mToolbox->indexOf(mPageColumnsValues), QApplication::translate("QgsSQLComposerDialogBase", "Columns' values", 0));
+        extract->setText(QApplication::translate("QgsSQLComposerDialogBase", "Only 10 first values", Q_NULLPTR));
+        mToolbox->setItemText(mToolbox->indexOf(mPageColumnsValues), QApplication::translate("QgsSQLComposerDialogBase", "Columns' values", Q_NULLPTR));
     } // retranslateUi
 
 };

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'qgsexpressionbuilder.ui'
 **
-** Created by: Qt User Interface Compiler version 5.7.0
+** Created by: Qt User Interface Compiler version 5.9.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -481,76 +481,76 @@ public:
 
     void retranslateUi(QWidget *QgsExpressionBuilderWidgetBase)
     {
-        QgsExpressionBuilderWidgetBase->setWindowTitle(QApplication::translate("QgsExpressionBuilderWidgetBase", "Form", 0));
+        QgsExpressionBuilderWidgetBase->setWindowTitle(QApplication::translate("QgsExpressionBuilderWidgetBase", "Form", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        btnEqualPushButton->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "Equal operator", 0));
+        btnEqualPushButton->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "Equal operator", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        btnEqualPushButton->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "=", 0));
+        btnEqualPushButton->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "=", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        btnPlusPushButton->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "Addition operator", 0));
+        btnPlusPushButton->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "Addition operator", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        btnPlusPushButton->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "+", 0));
+        btnPlusPushButton->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "+", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        btnMinusPushButton->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "Subtraction operator", 0));
+        btnMinusPushButton->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "Subtraction operator", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        btnMinusPushButton->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "-", 0));
+        btnMinusPushButton->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "-", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        btnDividePushButton->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "Division operator", 0));
+        btnDividePushButton->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "Division operator", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        btnDividePushButton->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "/", 0));
+        btnDividePushButton->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "/", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        btnMultiplyPushButton->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "Multiplication operator", 0));
+        btnMultiplyPushButton->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "Multiplication operator", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        btnMultiplyPushButton->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "*", 0));
+        btnMultiplyPushButton->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "*", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        btnExpButton->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "Power operator", 0));
+        btnExpButton->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "Power operator", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        btnExpButton->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "^", 0));
+        btnExpButton->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "^", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        btnConcatButton->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "String Concatenation", 0));
+        btnConcatButton->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "String Concatenation", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        btnConcatButton->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "||", 0));
+        btnConcatButton->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "||", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        btnOpenBracketPushButton->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "Open Bracket ", 0));
+        btnOpenBracketPushButton->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "Open Bracket ", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        btnOpenBracketPushButton->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "(", 0));
+        btnOpenBracketPushButton->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "(", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        btnCloseBracketPushButton->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "Close Bracket ", 0));
+        btnCloseBracketPushButton->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "Close Bracket ", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        btnCloseBracketPushButton->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", ")", 0));
+        btnCloseBracketPushButton->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", ")", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        btnNewLinePushButton->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "New Line ", 0));
+        btnNewLinePushButton->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "New Line ", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        btnNewLinePushButton->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "'\\n'", 0));
+        btnNewLinePushButton->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "'\\n'", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        label_2->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "Output preview is generated <br> using the first feature from the layer.", 0));
+        label_2->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "Output preview is generated <br> using the first feature from the layer.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        label_2->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "Output preview: ", 0));
+        label_2->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "Output preview: ", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        lblPreview->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "Output preview is generated <br> using the first feature from the layer.", 0));
+        lblPreview->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "Output preview is generated <br> using the first feature from the layer.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
         lblPreview->setText(QString());
-        label_4->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "Values", 0));
-        lblLoad->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "Load values", 0));
-        btnLoadAll->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "all unique", 0));
-        btnLoadSample->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "10 samples", 0));
-        tabWidget->setTabText(tabWidget->indexOf(tab), QApplication::translate("QgsExpressionBuilderWidgetBase", "Expression", 0));
+        label_4->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "Values", Q_NULLPTR));
+        lblLoad->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "Load values", Q_NULLPTR));
+        btnLoadAll->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "all unique", Q_NULLPTR));
+        btnLoadSample->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "10 samples", Q_NULLPTR));
+        tabWidget->setTabText(tabWidget->indexOf(tab), QApplication::translate("QgsExpressionBuilderWidgetBase", "Expression", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
         btnNewFile->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "Create a new function file based on the template file.\n"
 "\n"
-"Change the name of the script and save to allow QGIS to auto load on startup.", 0));
+"Change the name of the script and save to allow QGIS to auto load on startup.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        btnNewFile->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "New file", 0));
+        btnNewFile->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "New file", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
         btnRun->setToolTip(QApplication::translate("QgsExpressionBuilderWidgetBase", "Run the current editor text in QGIS (also saves current script).\n"
 "\n"
 "Use this when testing your functions.\n"
 "\n"
-"Saved scripts are auto loaded on QGIS startup.", 0));
+"Saved scripts are auto loaded on QGIS startup.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        btnRun->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "Load", 0));
+        btnRun->setText(QApplication::translate("QgsExpressionBuilderWidgetBase", "Load", Q_NULLPTR));
         lblAutoSave->setText(QString());
-        tabWidget->setTabText(tabWidget->indexOf(tab_2), QApplication::translate("QgsExpressionBuilderWidgetBase", "Function Editor", 0));
+        tabWidget->setTabText(tabWidget->indexOf(tab_2), QApplication::translate("QgsExpressionBuilderWidgetBase", "Function Editor", Q_NULLPTR));
     } // retranslateUi
 
 };

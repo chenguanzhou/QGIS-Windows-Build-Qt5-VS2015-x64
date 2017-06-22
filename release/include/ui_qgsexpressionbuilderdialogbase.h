@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'qgsexpressionbuilderdialogbase.ui'
 **
-** Created by: Qt User Interface Compiler version 5.7.0
+** Created by: Qt User Interface Compiler version 5.9.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -60,7 +60,7 @@ public:
 
     void retranslateUi(QDialog *QgsExpressionBuilderDialogBase)
     {
-        QgsExpressionBuilderDialogBase->setWindowTitle(QApplication::translate("QgsExpressionBuilderDialogBase", "Expression string builder", 0));
+        QgsExpressionBuilderDialogBase->setWindowTitle(QApplication::translate("QgsExpressionBuilderDialogBase", "Expression string builder", Q_NULLPTR));
     } // retranslateUi
 
 };

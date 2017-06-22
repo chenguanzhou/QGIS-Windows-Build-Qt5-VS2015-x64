@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'qgssublayersdialogbase.ui'
 **
-** Created by: Qt User Interface Compiler version 5.7.0
+** Created by: Qt User Interface Compiler version 5.9.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -63,9 +63,9 @@ public:
 
     void retranslateUi(QDialog *QgsSublayersDialogBase)
     {
-        QgsSublayersDialogBase->setWindowTitle(QApplication::translate("QgsSublayersDialogBase", "Select layers to load", 0));
+        QgsSublayersDialogBase->setWindowTitle(QApplication::translate("QgsSublayersDialogBase", "Select layers to load", Q_NULLPTR));
         QTreeWidgetItem *___qtreewidgetitem = layersTable->headerItem();
-        ___qtreewidgetitem->setText(0, QApplication::translate("QgsSublayersDialogBase", "1", 0));
+        ___qtreewidgetitem->setText(0, QApplication::translate("QgsSublayersDialogBase", "1", Q_NULLPTR));
     } // retranslateUi
 
 };

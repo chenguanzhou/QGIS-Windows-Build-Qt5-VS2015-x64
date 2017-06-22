@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'qgscredentialdialog.ui'
 **
-** Created by: Qt User Interface Compiler version 5.7.0
+** Created by: Qt User Interface Compiler version 5.9.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -209,19 +209,19 @@ public:
 
     void retranslateUi(QDialog *QgsCredentialDialog)
     {
-        QgsCredentialDialog->setWindowTitle(QApplication::translate("QgsCredentialDialog", "Enter Credentials", 0));
-        label_3->setText(QApplication::translate("QgsCredentialDialog", "Realm", 0));
-        labelRealm->setText(QApplication::translate("QgsCredentialDialog", "TextLabel", 0));
-        label->setText(QApplication::translate("QgsCredentialDialog", "Username", 0));
-        label_2->setText(QApplication::translate("QgsCredentialDialog", "Password", 0));
-        labelMessage->setText(QApplication::translate("QgsCredentialDialog", "TextLabel", 0));
+        QgsCredentialDialog->setWindowTitle(QApplication::translate("QgsCredentialDialog", "Enter Credentials", Q_NULLPTR));
+        label_3->setText(QApplication::translate("QgsCredentialDialog", "Realm", Q_NULLPTR));
+        labelRealm->setText(QApplication::translate("QgsCredentialDialog", "TextLabel", Q_NULLPTR));
+        label->setText(QApplication::translate("QgsCredentialDialog", "Username", Q_NULLPTR));
+        label_2->setText(QApplication::translate("QgsCredentialDialog", "Password", Q_NULLPTR));
+        labelMessage->setText(QApplication::translate("QgsCredentialDialog", "TextLabel", Q_NULLPTR));
         lblPasswordTitle->setText(QString());
-        chkMasterPassShow->setText(QApplication::translate("QgsCredentialDialog", "Show", 0));
-        leMasterPassVerify->setPlaceholderText(QApplication::translate("QgsCredentialDialog", "Verify password", 0));
-        lblDontForget->setText(QApplication::translate("QgsCredentialDialog", "Do not forget it:  NOT retrievable!", 0));
-        lblSavedForSession->setText(QApplication::translate("QgsCredentialDialog", "Saved for session, until app is quit.", 0));
-        grpbxPassAttempts->setTitle(QApplication::translate("QgsCredentialDialog", "Password attempts: #", 0));
-        chkbxEraseAuthDb->setText(QApplication::translate("QgsCredentialDialog", "Erase authentication database?", 0));
+        chkMasterPassShow->setText(QApplication::translate("QgsCredentialDialog", "Show", Q_NULLPTR));
+        leMasterPassVerify->setPlaceholderText(QApplication::translate("QgsCredentialDialog", "Verify password", Q_NULLPTR));
+        lblDontForget->setText(QApplication::translate("QgsCredentialDialog", "Do not forget it:  NOT retrievable!", Q_NULLPTR));
+        lblSavedForSession->setText(QApplication::translate("QgsCredentialDialog", "Saved for session, until app is quit.", Q_NULLPTR));
+        grpbxPassAttempts->setTitle(QApplication::translate("QgsCredentialDialog", "Password attempts: #", Q_NULLPTR));
+        chkbxEraseAuthDb->setText(QApplication::translate("QgsCredentialDialog", "Erase authentication database?", Q_NULLPTR));
     } // retranslateUi
 
 };

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'qgsprojectionselectorbase.ui'
 **
-** Created by: Qt User Interface Compiler version 5.7.0
+** Created by: Qt User Interface Compiler version 5.9.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -196,20 +196,20 @@ public:
 
     void retranslateUi(QWidget *QgsProjectionSelectorBase)
     {
-        QgsProjectionSelectorBase->setWindowTitle(QApplication::translate("QgsProjectionSelectorBase", "Coordinate Reference System Selector", 0));
-        label->setText(QApplication::translate("QgsProjectionSelectorBase", "Selected CRS:", 0));
+        QgsProjectionSelectorBase->setWindowTitle(QApplication::translate("QgsProjectionSelectorBase", "Coordinate Reference System Selector", Q_NULLPTR));
+        label->setText(QApplication::translate("QgsProjectionSelectorBase", "Selected CRS:", Q_NULLPTR));
         QTreeWidgetItem *___qtreewidgetitem = lstRecent->headerItem();
-        ___qtreewidgetitem->setText(2, QApplication::translate("QgsProjectionSelectorBase", "ID", 0));
-        ___qtreewidgetitem->setText(1, QApplication::translate("QgsProjectionSelectorBase", "Authority ID", 0));
-        ___qtreewidgetitem->setText(0, QApplication::translate("QgsProjectionSelectorBase", "Coordinate Reference System", 0));
-        label_4->setText(QApplication::translate("QgsProjectionSelectorBase", "Coordinate reference systems of the world", 0));
-        cbxHideDeprecated->setText(QApplication::translate("QgsProjectionSelectorBase", "Hide deprecated CRSs", 0));
+        ___qtreewidgetitem->setText(2, QApplication::translate("QgsProjectionSelectorBase", "ID", Q_NULLPTR));
+        ___qtreewidgetitem->setText(1, QApplication::translate("QgsProjectionSelectorBase", "Authority ID", Q_NULLPTR));
+        ___qtreewidgetitem->setText(0, QApplication::translate("QgsProjectionSelectorBase", "Coordinate Reference System", Q_NULLPTR));
+        label_4->setText(QApplication::translate("QgsProjectionSelectorBase", "Coordinate reference systems of the world", Q_NULLPTR));
+        cbxHideDeprecated->setText(QApplication::translate("QgsProjectionSelectorBase", "Hide deprecated CRSs", Q_NULLPTR));
         QTreeWidgetItem *___qtreewidgetitem1 = lstCoordinateSystems->headerItem();
-        ___qtreewidgetitem1->setText(2, QApplication::translate("QgsProjectionSelectorBase", "ID", 0));
-        ___qtreewidgetitem1->setText(1, QApplication::translate("QgsProjectionSelectorBase", "Authority ID", 0));
-        ___qtreewidgetitem1->setText(0, QApplication::translate("QgsProjectionSelectorBase", "Coordinate Reference System", 0));
-        label_5->setText(QApplication::translate("QgsProjectionSelectorBase", "Filter", 0));
-        label_3->setText(QApplication::translate("QgsProjectionSelectorBase", "Recently used coordinate reference systems", 0));
+        ___qtreewidgetitem1->setText(2, QApplication::translate("QgsProjectionSelectorBase", "ID", Q_NULLPTR));
+        ___qtreewidgetitem1->setText(1, QApplication::translate("QgsProjectionSelectorBase", "Authority ID", Q_NULLPTR));
+        ___qtreewidgetitem1->setText(0, QApplication::translate("QgsProjectionSelectorBase", "Coordinate Reference System", Q_NULLPTR));
+        label_5->setText(QApplication::translate("QgsProjectionSelectorBase", "Filter", Q_NULLPTR));
+        label_3->setText(QApplication::translate("QgsProjectionSelectorBase", "Recently used coordinate reference systems", Q_NULLPTR));
     } // retranslateUi
 
 };

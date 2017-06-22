@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'qgsexpressionselectiondialogbase.ui'
 **
-** Created by: Qt User Interface Compiler version 5.7.0
+** Created by: Qt User Interface Compiler version 5.9.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -82,13 +82,13 @@ public:
 
     void retranslateUi(QDialog *QgsExpressionSelectionDialogBase)
     {
-        QgsExpressionSelectionDialogBase->setWindowTitle(QApplication::translate("QgsExpressionSelectionDialogBase", "Select By Expression", 0));
-        mActionSelect->setText(QApplication::translate("QgsExpressionSelectionDialogBase", "Select", 0));
-        mActionAddToSelection->setText(QApplication::translate("QgsExpressionSelectionDialogBase", "Add to selection", 0));
-        mActionRemoveFromSelection->setText(QApplication::translate("QgsExpressionSelectionDialogBase", "Remove from selection", 0));
-        mActionSelectIntersect->setText(QApplication::translate("QgsExpressionSelectionDialogBase", "Select within selection", 0));
-        mPbnClose->setText(QApplication::translate("QgsExpressionSelectionDialogBase", "Close", 0));
-        mButtonSelect->setText(QApplication::translate("QgsExpressionSelectionDialogBase", "...", 0));
+        QgsExpressionSelectionDialogBase->setWindowTitle(QApplication::translate("QgsExpressionSelectionDialogBase", "Select By Expression", Q_NULLPTR));
+        mActionSelect->setText(QApplication::translate("QgsExpressionSelectionDialogBase", "Select", Q_NULLPTR));
+        mActionAddToSelection->setText(QApplication::translate("QgsExpressionSelectionDialogBase", "Add to selection", Q_NULLPTR));
+        mActionRemoveFromSelection->setText(QApplication::translate("QgsExpressionSelectionDialogBase", "Remove from selection", Q_NULLPTR));
+        mActionSelectIntersect->setText(QApplication::translate("QgsExpressionSelectionDialogBase", "Select within selection", Q_NULLPTR));
+        mPbnClose->setText(QApplication::translate("QgsExpressionSelectionDialogBase", "Close", Q_NULLPTR));
+        mButtonSelect->setText(QApplication::translate("QgsExpressionSelectionDialogBase", "...", Q_NULLPTR));
     } // retranslateUi
 
 };

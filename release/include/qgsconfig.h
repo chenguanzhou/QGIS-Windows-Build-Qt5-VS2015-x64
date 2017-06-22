@@ -8,16 +8,16 @@
 // <int>.<int>.<int>"
 // or else upgrading old project file will not work
 // reliably.
-#define VERSION "2.18.0"
+#define VERSION "2.18.8"
 
 //used in vim src/core/qgis.cpp
 //The way below should work but it resolves to a number like 0110 which the compiler treats as octal I think
 //because debuggin it out shows the decimal number 72 which results in incorrect version status.
 //As a short term fix I (Tim) am defining the version in top level cmake. It would be good to 
 //reinstate this more generic approach below at some point though
-//#define VERSION_INT 2180
-#define VERSION_INT 21800
-#define ABISYM(x) x ## 21800
+//#define VERSION_INT 2188
+#define VERSION_INT 21808
+#define ABISYM(x) x ## 21808
 //used in main.cpp and anywhere else where the release name is needed
 #define RELEASE_NAME "Las Palmas"
 
@@ -25,8 +25,8 @@
 #define QGIS_DATA_SUBDIR "."
 #define QGIS_LIBEXEC_SUBDIR "."
 #define QGIS_LIB_SUBDIR "lib"
-#define CMAKE_INSTALL_PREFIX "C:\Users\cgz\Documents\code\3rdParty\qgis-install"
-#define CMAKE_SOURCE_DIR "C:/Users/cgz/Documents/code/3rdParty/qgis-2.18.0"
+#define CMAKE_INSTALL_PREFIX "C:\Users\cgz\Documents\code\3rdParty/qgis2.18-install-qt5.9"
+#define CMAKE_SOURCE_DIR "C:/Users/cgz/Documents/code/3rdParty/QGIS-ltr-2_18"
 
 #define QSCINTILLA_VERSION_STR "2.9"
 
@@ -35,7 +35,7 @@
 #define QGIS_MACAPP_BUNDLE 
 #endif
 
-#define QT_PLUGINS_DIR "C:/Qt/5.7/msvc2015_64/plugins"
+#define QT_PLUGINS_DIR "C:/Qt/5.9/msvc2015_64/plugins"
 #define OSG_PLUGINS_PATH ""
 
 /* #undef USING_NMAKE */
@@ -46,7 +46,7 @@
 
 /* #undef HAVE_ORACLE */
 
-/* #undef HAVE_TOUCH */
+#define HAVE_TOUCH
 
 /* #undef HAVE_OSGEARTHQT */
 

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'qgsmessageviewer.ui'
 **
-** Created by: Qt User Interface Compiler version 5.7.0
+** Created by: Qt User Interface Compiler version 5.9.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -70,8 +70,8 @@ public:
 
     void retranslateUi(QDialog *QgsMessageViewer)
     {
-        QgsMessageViewer->setWindowTitle(QApplication::translate("QgsMessageViewer", "QGIS Message", 0));
-        checkBox->setText(QApplication::translate("QgsMessageViewer", "Don't show this message again", 0));
+        QgsMessageViewer->setWindowTitle(QApplication::translate("QgsMessageViewer", "QGIS Message", Q_NULLPTR));
+        checkBox->setText(QApplication::translate("QgsMessageViewer", "Don't show this message again", Q_NULLPTR));
     } // retranslateUi
 
 };
